@@ -1,5 +1,5 @@
-# Lenovo-X260
 # 联想Thinkpad X260黑苹果全套hotpatch施工，EFI适配10.13/10.14
+
 ## 电脑配置
 
 |规格|详细信息|
