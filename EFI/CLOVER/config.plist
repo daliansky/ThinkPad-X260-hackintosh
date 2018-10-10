@@ -787,7 +787,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>10.13.x USB Port Limit Patch</string>
+				<string>USB Port Limit Patch</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -807,47 +807,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port 15-&gt;26</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g32IDw+DpwQ=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.6</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g32IGg+DpwQ=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change 15 port limit to 26 in XHCI kext for 10.14 beta2</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g/sPD4MDBQA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14,10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/saD4MDBQA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>disable USB Port Limit Patch (PMheart) for 10.14 beta2</string>
+				<string>USB Port Limit Patch (PMheart) for 10.14 beta2</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -857,7 +817,27 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
-				<string>10.14,10.14.x</string>
+				<string>10.14</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 10.14.1 18B50C (credits DalianSky)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4OPBAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.1</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
@@ -906,6 +886,8 @@
 				</data>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>第二阶段花屏</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -924,6 +906,8 @@
 				</data>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>第二阶段花屏</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
