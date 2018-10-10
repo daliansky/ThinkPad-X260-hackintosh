@@ -48,6 +48,15 @@
 
   - EFI第一次上传更新
 
+- 10-8-2018
+
+  - 修复电池充电状态不更新的问题
+  - 修复声卡睡眠唤醒失效的问题
+  - 驱动常规更新
+    - WhateverGreen v1.2.4
+    - USBInjectAll v0.6.8
+    - ACPIBatteryManager v1.90.1
+
   
 
 
