@@ -1,4 +1,4 @@
-# 联想Thinkpad X260黑苹果全套hotpatch施工，EFI适配10.13/10.14
+# 联想Thinkpad X260黑苹果全套hotpatch施工，EFI适配10.13/10.14.x
 
 ## 电脑配置
 
@@ -44,6 +44,12 @@
 
 ## EFI更新日期
 
+- 2-18-2019
+
+  - 添加10.14.x的USB端口限制补丁
+  - 更新核显的驱动方式
+  - CLOVER常规更新
+
 - 9-17-2018
 
   - EFI第一次上传更新
@@ -83,10 +89,11 @@
 
 ## QQ群:
 
-331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)[群已满,请加下面群]
-688324116[一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
-128630866[ThinkPad黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
+331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
 
+688324116[一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
+
+128630866[ThinkPad黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
 
 
 
